@@ -1,5 +1,7 @@
 # Bubble Sort - Compare and swapping two elements like small soap bubbles and hence the name given as bubble sort.
 
+# This simple sorting algorithm iterates over a list, comparing elements in pairs and swapping them until the larger elements "bubble up" to the end of the list, and the smaller elements stay at the "bottom".
+
 def bubble(list_item):
     index_len = len(list_item) - 1
     sorted_list = False
